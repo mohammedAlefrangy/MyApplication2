@@ -20,12 +20,14 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class MainActivity extends AppCompatActivity {
     private EditText name;
     private EditText age;
     private EditText mail;
     private Button save;
-    private ImageView pic;
+    private CircleImageView pic;
 
     private int PICK_IMAGE_FROM_GALLERY_REQUEST = 1;
     private Intent intentActivity;
